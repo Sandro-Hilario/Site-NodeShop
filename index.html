@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>NodeShop - Loja de informática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="icon" type="text/css" href="img/market.png" media="all" sizes="75x75">
+    <!-- Files via CDN -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" media="all"> <!-- CSS Rules: font-family: 'Open Sans', sans-serif; -->
+</head>
+
+<body>
+    <!-- Cabeçalho da Página(header) -->
+    <header id="cabecalho">
+        <!-- Logo IMG lincada (link) -->
+        <a href="index.html" title="NodeShop - Loja de informática" class="logo"></a>
+
+        <!-- Barra de pesquisa + icone search -->
+        <form method="POST">
+            <input type="text" name="search" placeholder="Faça uma busca">
+            <button><i class="fas fa-search fa-lg"></i></button>
+        </form>
+    </header>
+    <!-- Menu de Navegação -->
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <!-- Icones das Redes Sociais -->
+        <div id="social-icons">
+            <a href="#" class="btn-facebook" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+            <a href="#" class="btn-twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="btn-google" target="_blank"><i class="fab fa-google fa-lg"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main - Conteudo principal Sobre Nós -->
+    <main id="principal">
+        <article id="sobre">
+            <h1>Sobre nós</h1>
+            <img src="img/loja.jpg" alt="NodeShop - Loja de Info." title="NodeShop - Loja de informática">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repudiandae ad eos est. Eveniet consectetur expedita dicta ipsum fuga, cum, ea minus assumenda itaque, necessitatibus voluptatibus! Illum temporibus recusandae distinctio!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repudiandae ad eos est. Eveniet consectetur expedita dicta ipsum fuga, cum, ea minus assumenda itaque, necessitatibus voluptatibus! Illum temporibus recusandae distinctio!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repudiandae ad eos est. Eveniet consectetur expedita dicta ipsum fuga, cum, ea minus assumenda itaque, necessitatibus voluptatibus! Illum temporibus recusandae distinctio!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repudiandae ad eos est. Eveniet consectetur expedita dicta ipsum fuga, cum, ea minus assumenda itaque, necessitatibus voluptatibus! Illum temporibus recusandae distinctio!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repudiandae ad eos est. Eveniet consectetur expedita dicta ipsum fuga, cum, ea minus assumenda itaque, necessitatibus voluptatibus! Illum temporibus recusandae distinctio!</p>
+        </article>
+        <!-- Aside - Ende Estamos (Localização) -->
+        <aside id="onde-estamos">
+            <h2>Onde estamos</h2>
+            <p>Av. Jucá Leão - Centro Comercial, Itabuna - BA</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.527279012226!2d-39.28657995035889!3d-14.795636303070626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x739aaf0cc0db597%3A0x9dfa10026b580036!2sAv.%20Juca%20Le%C3%A3o%20-%20Centro%20Comercial%2C%20Itabuna%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1598299101719!5m2!1spt-BR!2sbr"></iframe>
+            <h2>Contatos</h2>
+            <ul>
+                <li><i class="fas fa-phone-alt fa-lg"></i>(73)96465-7467</li>
+                <li><i class="fab fa-whatsapp fa-lg"></i>(11)97636-9986</li>
+                <li><i class="fas fa-envelope fa-lg"></i><a href="mailto:sandro@email.com">sandro@email.com</a></li>
+            </ul>
+        </aside>
+    </main>
+    <!-- Reçeba nssos e-mails (Newsletter) -->
+    <section id="newsletter">
+        <h3>Newsletter</h3>
+        <p>Receba nossas promoções por e-mail</p>
+        <form method="POST">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder=" Seu email" required>
+            <button>Cadastrar</button>
+        </form>
+    </section>
+    <!-- Rodapé da Página Final -->
+    <footer id="rodape">
+        <p> &copy; NodeShop - Todos os direiros reservados</p>
+    </footer>
+</body>
+
+</html>
